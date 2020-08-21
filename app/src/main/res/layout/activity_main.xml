@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="10dp"
+        android:id="@+id/rvStoreList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+</LinearLayout>
